@@ -44,7 +44,7 @@ Use acqKnoledge software to obtain data from Biopac EEG 100 device.
         - psgcompiler==1.6.1
 
 
-## Directories and files
+## Directories and files 
 - Folders
     - Raw data: raw .edf data sample for test
     - notebook  *whole processing workflow and functions test for packages*
@@ -58,7 +58,7 @@ Use acqKnoledge software to obtain data from Biopac EEG 100 device.
 
 ## Program guide
 
-### Run program directly
+### Run compiled program directly
 Download main_GUI_ALL.zip, unzip and click main_GUI_ALL.exe to execute program
 Click browser to select target file folder, program will recognise edf files automatically
 - Select a single file to preview result, save result to local disk.
@@ -72,7 +72,7 @@ All processed results will appear under current selected folder with separate fo
    - absolute_power.xlsx *absolute results for all data processed, separated with tab
    - relative_power.xlsx *absolute results for all data processed, separated with tab
 
-### Run whole project
+### Run whole project  :star:
 - OPT 1. Run non GUI python program.
    Clone folder named **main_program_no_GUI**, create a new python project in your IDE, 
    change working directory to where your target data located, run **main.py**

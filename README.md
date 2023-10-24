@@ -59,7 +59,7 @@ Use acqKnoledge software to obtain data from Biopac EEG 100 device.
 ## Program guide
 
 ### Run program directly
-Download main_GUI_ALL folder, click main_GUI_ALL.exe to execute program
+Download main_GUI_ALL.zip, unzip and click main_GUI_ALL.exe to execute program
 Click browser to select target file folder, program will recognise edf files automatically
 - Select a single file to preview result, save result to local disk.
 - Process all edf data under current selected folder.

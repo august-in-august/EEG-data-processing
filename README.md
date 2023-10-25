@@ -28,7 +28,7 @@ Use acqKnoledge software to obtain data from Biopac EEG 100 device.
         - pandas==1.3.5
 
     - Algorithms
-        - mne==1.3.1    *package for exploring, visualizing, and analyzing human neurophysiological data: MEG, EEG, sEEG, ECoG, NIRS, and more*
+        - mne==1.3.1    *exploring, visualizing, analyzing human neurophysiological data: MEG, EEG, sEEG, ECoG, NIRS ...*
         - asrpy==0.0.2    *automatic noise rejection*
 
     - IO and data transform

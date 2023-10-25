@@ -24,10 +24,8 @@ Use acqKnoledge software to obtain data from Biopac EEG 100 device.
 - Packages
     - Basic pacages
         - numpy==1.21.6
-        - mne==1.3.1
         - matplotlib==3.5.3
         - pandas==1.3.5
-        - matplotlib==3.5.3
 
     - Algorithms
         - mne==1.3.1    *Open-source Python package for exploring, visualizing, and analyzing human neurophysiological data: MEG, EEG, sEEG, ECoG, NIRS, and more*

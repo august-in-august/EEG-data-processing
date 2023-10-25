@@ -44,13 +44,13 @@ Use acqKnoledge software to obtain data from Biopac EEG 100 device.
 
 ## Directories and files 
 - Folders
-    - Raw data: raw .edf data sample for test
+    - Raw data *raw .edf data sample for test*
     - notebook  *whole processing workflow and functions test for packages*
         - EEG_Pre_Tets.ipynb *test and debugging with MNE, ASR functions*
         - EEG_single data processing_re.ipynb  *whole processing flow to handle a single edf data*
         - EEG_multi data processing.ipynb  *modularized code to handle multi edf data*
-    - main_program_no_GUI  * .py files for multiple edf data processing, same functionality with ipynb files*
-    - GUI_Program  *Add interface to make a program based on the previous code
+    - main_program_no_GUI  *.py files for multiple edf data processing, same functionality with ipynb files*
+    - GUI_Program  *add interface to make a program based on the previous code*
 
     - main_GUI_ALL.zip *download and unzip the compiled program, whole program running with Windows*
 

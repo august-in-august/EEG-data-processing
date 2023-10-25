@@ -63,9 +63,9 @@ Click browser to select target file folder, program will recognise edf files aut
 - Process all edf data under current selected folder.
 
 All processed results will appear under current selected folder with separate folder named after file name
-- .png *Results of absolute and relative power of selected data*
-- .edf *edf data file after preprocessing, can be use as further aims*
-- .set *convert edf after preprocessing as a dataset of eeglab program, for further processing, you can import .set to **eeglab** directly and make use of that set file, for example, for further manual noise rejection
+- `.png` *Results of absolute and relative power of selected data*
+- `.edf` *edf data file after preprocessing, can be use as further aims*
+- `.set` *convert edf after preprocessing as a dataset of eeglab program, for further processing, you can import .set to **eeglab** directly and make use of that set file, for example, for further manual noise rejection*
 -  when process all data under folder, program will generate extra two xlxs files
    - absolute_power.xlsx *absolute results for all data processed, separated with tab*
    - relative_power.xlsx *absolute results for all data processed, separated with tab*

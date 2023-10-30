@@ -52,7 +52,7 @@ def preprocessing_eeg(fname=None):
     ## raw.plot(duration=10, start=0, title='with ASR auto rejection')
 
     # detect ECG noise in EEG data, create as events, use annotaion to mark as 'bad' duration to drop
-    ecg_events = mne.preprocessing.find_ecg_events(raw, ch_name='EEG100C-1', tstart=0, return_ecg=True)
+    ecg_events = mne.preprocessing.find_ecg_events(raw, ch_name=raw.ch_names[2], tstart=0, return_ecg=True)
 
     # set boundary
     onsets = ecg_events[0][:, 0] / raw.info["sfreq"] - 0.05
